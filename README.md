@@ -1,1 +1,1 @@
-# arm7hf-mariadb
+# armv7hf-mariadb
