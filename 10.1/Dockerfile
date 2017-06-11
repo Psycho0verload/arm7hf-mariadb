@@ -1,5 +1,5 @@
 # vim:set ft=dockerfile:
-FROM debian:jessie
+FROM resin/armv7hf-debian:jessie
 
 COPY qemu-arm-static /usr/bin/qemu-arm-static
 
