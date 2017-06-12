@@ -1,8 +1,6 @@
 # vim:set ft=dockerfile:
 FROM resin/armv7hf-debian:jessie
 
-COPY qemu-arm-static /usr/bin/qemu-arm-static
-
 # add our user and group first to make sure their IDs get assigned consistently, regardless of whatever dependencies get added
 RUN groupadd -r mysql && useradd -r -g mysql mysql
 
